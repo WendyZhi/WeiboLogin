@@ -1,0 +1,5 @@
+* 说明
+
+ 模拟登陆新浪微博, 例子见代码main函数, 构建WeiboLogin对象时传入用户名
+ 及密码, 随后调用login函数即可获取到一个requests.Session的对象, 有效的
+ cookie就保存在这里面. 随后使用session.get(url)即可获取到页面内容.
